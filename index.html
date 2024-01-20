@@ -1,44 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style src="./style.css"></style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>ON/OFF BULB</title>
+  </head>
+  <body>
+    <div class="pro">
+      <img id="img" src="./pic/light-bulb-off.jpg" width="150px" alt="" />
+      <br />
+      <br />
+      <button id="btn" class="btn1" onclick="change()">ON</button>
 
-</head>
-<body>
+      <br />
+      <br />
+      <button onclick='document.getElementById("img") .src="./pic/light-bulb-on.jpg";' onclick='document.getElementById("img").src="./pic/light-bulb-off.jpg"' >ON BULB </button>
+      <button onclick='document.getElementById("img").src="./pic/light-bulb-off.jpg"'>OFF BULB</button>
 
+      <br /><br />
+    </div>
 
+    <h5 class="name">Muhammad ilyas</h5>
 
-<div class="pro">
-<img  id="img"   src="./pic/light-bulb-off.jpg" width="150px" alt="">
-<br> <br>
-<button id="btn" class="btn1" onclick="change()">ON</button>
-
-
-
- <br> <br>
-  <button  onclick='document.getElementById("img") .src="./pic/light-bulb-on.jpg";'  onclick='document.getElementById("img").src="./pic/light-bulb-off.jpg"'>ON BULB</button>
-  
-<button onclick='document.getElementById("img").src="./pic/light-bulb-off.jpg"'>OFF BULB</button>
-
-<br><br>
- </div>
-
-
-<h5 class="name">Muhammad ilyas </h5>
-
-
-
-
-
-
-
-
-
-
-
- <script src="./app.js"></script>   
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
